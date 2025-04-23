@@ -1,0 +1,7 @@
+curl -so bahaarch.sh https://bahaarch.github.io/index.html
+curl -so https://bahaarch.github.io/1setup.sh
+curl -so https://bahaarch.github.io/2part.sh
+curl -so https://bahaarch.github.io/3install.sh
+curl -so https://bahaarch.github.io/4configs.sh
+curl -so https://bahaarch.github.io/5finishing.sh
+chmod +x *.sh
