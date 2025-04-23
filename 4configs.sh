@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S grub sudo neovim networkmanager --noconfirm
+pacman -S grub sudo vim networkmanager --noconfirm
 
 sed -i 's/^#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
 locale-gen
